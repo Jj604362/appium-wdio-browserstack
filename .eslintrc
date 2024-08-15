@@ -1,0 +1,20 @@
+{
+    "plugin":[
+        "wdio"
+    ], 
+    "extends":["plugin:wdio/recommended",
+    "eslint:recommended"
+    ], 
+    "parserOptions":{
+        "ecmaVison": "latest",
+        "sourceType": "module"
+    }, 
+    
+        "env":{
+            "es6" : true,
+            "mocha": true, 
+            "node": true
+        }
+    
+
+}
