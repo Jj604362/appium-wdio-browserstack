@@ -12,6 +12,7 @@ jobs:
         - name: Install
           run: npm install
         - name: Test
+        # note any environment vars has to be added below the env:otherwise it will not run this ci.yml file on whatever we configure this run on.
           env: 
             BROWSERSTACK_USERNAME: ${{ secrets.BS_USER}}
             BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_KEY}}
