@@ -1,7 +1,12 @@
-import { config } from "./wdio.shared.conf.js";
+
+
+import { config } from "../wdio.shared.conf.js";
 config.specs = [
-    '../test/specs/test.ios.js'
+    // use ../.. to move up 2 dirs
+    '../../test/specs/test.ios.js'
 ]
+
+config.services = ['browserstack']
 
 config.capabilities = [
     {

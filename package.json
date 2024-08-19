@@ -16,9 +16,9 @@
   },
   "scripts": {
     "wdio": "wdio run ./config/wdio.shared.conf.js",
-    "ios": "wdio run ./config/wdio.ios.bs.conf.js",
-    "android": "wdio run ./config/wdio.android.bs.conf.js",
-    "combine": "wdio run ./config/wdio.ios.bs.conf.js\nwdio run ./config/wdio.android.bs.conf.js"
+    "ios": "wdio run ./config/browserstack-config/wdio.ios.bs.conf.js",
+    "android": "wdio run ./config/browserstack-config/wdio.android.bs.conf.js",
+    "combine": "wdio run ./config/wdio.ios.bs.conf.js/nwdio run ./config/wdio.android.bs.conf.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5"

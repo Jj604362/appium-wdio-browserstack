@@ -1,7 +1,12 @@
-import { config } from "./wdio.shared.conf.js";
+import { config } from "../wdio.shared.conf.js";
 config.specs = [
-    '../test/specs/test.android.js'
+    '../../test/specs/test.android.js'
+    // 'C:/Users/2727588/Documents/BrowserStackTest/Test2/test/specs/test.android.js'
+    
 ]
+
+config.services = ['browserstack']
+
 
 config.capabilities = [
     {
