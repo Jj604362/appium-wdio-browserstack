@@ -15,7 +15,8 @@ config.capabilities = [
         deviceName: 'Google Pixel 8 Pro',
         platformVersion: '14.0',
         automationName: 'UiAutomator2',
-        app:'bs://6d89de9eb073978accbcc6a0a96a93b00e1e8261',
+        app:'bs://d6a56bd43515a6dfb0034e13828bf27fe38eac30'
+        // app:'bs://6d89de9eb073978accbcc6a0a96a93b00e1e8261',
         autoGrantPermissions: true
     }
 ]
