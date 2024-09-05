@@ -6,7 +6,7 @@
     "eslint:recommended"
     ], 
     "parserOptions":{
-        "ecmaVison": "latest",
+        "ecmaVersion": "latest",
         "sourceType": "module"
     }, 
     
